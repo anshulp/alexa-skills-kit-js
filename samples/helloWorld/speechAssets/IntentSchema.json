@@ -1,7 +1,13 @@
 {
   "intents": [
     {
-      "intent": "HelloWorldIntent"
+      "intent": "GetBestHotel",
+      "slots": [
+        {
+          "name": "city",
+          "type": "SUPPORTED_CITY"
+        }
+      ]
     },
     {
       "intent": "AMAZON.HelpIntent"
